@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserViewModel"
+provides-nominal:
+- "10UsersTasks13UserViewModelC"
+provides-member:
+- ["10UsersTasks13UserViewModelC", ""]
+provides-dynamic-lookup:
+- "$currentUser"
+- "$users"
+- "_currentUser"
+- "_users"
+- "apiSession"
+- "cancellables"
+- "currentUser"
+- "getUsers"
+- "login"
+- "users"
+depends-top-level:
+- !private "!="
+- "&&"
+- "=="
+- "APISession"
+- "AnyCancellable"
+- "ApiService"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "ObservableObject"
+- "Published"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "User"
+- "UserService"
+- "UserViewModel"
+- !private "cancellables"
+- "print"
+- !private "users"
+depends-member:
+- ["10UsersTasks8APIErrorO", ""]
+- !private ["10UsersTasks10APISessionV", ""]
+- !private ["10UsersTasks10APISessionV", "init"]
+- !private ["7Combine12AnyPublisherV", "sink"]
+- !private ["10UsersTasks10ApiServiceP", "init"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- ["SK", ""]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- ["Sl", ""]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["7Combine11SubscribersO10CompletionO", "failure"]
+- !private ["7Combine11SubscribersO10CompletionO", "finished"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sink"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "sink"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "failure"]
+- !private ["Se", "finished"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "name"]
+- !private ["Se", "username"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "failure"]
+- !private ["SE", "finished"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "name"]
+- !private ["SE", "username"]
+- ["SQ", ""]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "finished"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "failure"]
+- !private ["SH", "finished"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "username"]
+- ["SM", ""]
+- !private ["SM", "first"]
+- ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "APISession"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", "Set"]
+- ["7Combine16ObservableObjectP", "User"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_currentUser"]
+- !private ["7Combine16ObservableObjectP", "_users"]
+- ["7Combine16ObservableObjectP", "apiSession"]
+- !private ["7Combine16ObservableObjectP", "cancellables"]
+- !private ["7Combine16ObservableObjectP", "currentUser"]
+- ["7Combine16ObservableObjectP", "getUsers"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "users"]
+- !private ["Sq", "callAsFunction"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "projectedValue"]
+- ["7Combine9PublishedV", "subscript"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine9PublisherP", "sink"]
+- ["Sk", ""]
+- !private ["Sk", "first"]
+- ["Sk", "init"]
+- ["Sm", ""]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- ["ST", ""]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["10UsersTasks4UserV", ""]
+- !private ["10UsersTasks4UserV", "name"]
+- !private ["10UsersTasks4UserV", "username"]
+- !private ["10UsersTasks11UserServiceP", "APISession"]
+- ["10UsersTasks11UserServiceP", "Default_ObjectWillChangePublisher"]
+- ["10UsersTasks11UserServiceP", "ObjectWillChangePublisher"]
+- ["10UsersTasks11UserServiceP", "Published"]
+- ["10UsersTasks11UserServiceP", "Set"]
+- ["10UsersTasks11UserServiceP", "User"]
+- ["10UsersTasks11UserServiceP", ""]
+- ["10UsersTasks11UserServiceP", "_Default_ObjectWillChangePublisher"]
+- !private ["10UsersTasks11UserServiceP", "_currentUser"]
+- !private ["10UsersTasks11UserServiceP", "_users"]
+- ["10UsersTasks11UserServiceP", "apiSession"]
+- !private ["10UsersTasks11UserServiceP", "cancellables"]
+- !private ["10UsersTasks11UserServiceP", "currentUser"]
+- ["10UsersTasks11UserServiceP", "getUsers"]
+- ["10UsersTasks11UserServiceP", "objectWillChange"]
+- !private ["10UsersTasks11UserServiceP", "print"]
+- !private ["10UsersTasks11UserServiceP", "users"]
+- ["10UsersTasks13UserViewModelC", "$currentUser"]
+- ["10UsersTasks13UserViewModelC", "$users"]
+- ["10UsersTasks13UserViewModelC", "APISession"]
+- ["10UsersTasks13UserViewModelC", "AnyCancellable"]
+- ["10UsersTasks13UserViewModelC", "ApiService"]
+- ["10UsersTasks13UserViewModelC", "Bool"]
+- ["10UsersTasks13UserViewModelC", "Default_ObjectWillChangePublisher"]
+- ["10UsersTasks13UserViewModelC", "ObjectWillChangePublisher"]
+- ["10UsersTasks13UserViewModelC", "Published"]
+- ["10UsersTasks13UserViewModelC", "Set"]
+- ["10UsersTasks13UserViewModelC", "String"]
+- ["10UsersTasks13UserViewModelC", "User"]
+- ["10UsersTasks13UserViewModelC", ""]
+- ["10UsersTasks13UserViewModelC", "_Default_ObjectWillChangePublisher"]
+- !private ["10UsersTasks13UserViewModelC", "_currentUser"]
+- !private ["10UsersTasks13UserViewModelC", "_users"]
+- ["10UsersTasks13UserViewModelC", "apiSession"]
+- ["10UsersTasks13UserViewModelC", "cancellables"]
+- ["10UsersTasks13UserViewModelC", "currentUser"]
+- ["10UsersTasks13UserViewModelC", "deinit"]
+- ["10UsersTasks13UserViewModelC", "getUsers"]
+- ["10UsersTasks13UserViewModelC", "init"]
+- ["10UsersTasks13UserViewModelC", "login"]
+- ["10UsersTasks13UserViewModelC", "objectWillChange"]
+- !private ["10UsersTasks13UserViewModelC", "print"]
+- ["10UsersTasks13UserViewModelC", "users"]
+- !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+depends-nominal:
+- "10UsersTasks8APIErrorO"
+- !private "10UsersTasks10APISessionV"
+- !private "7Combine12AnyPublisherV"
+- !private "10UsersTasks10ApiServiceP"
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- !private "7Combine11SubscribersO10CompletionO"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s12IdentifiableP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "7Combine16ObservableObjectP"
+- !private "Sq"
+- "7Combine9PublishedV"
+- !private "7Combine9PublisherP"
+- "Sk"
+- "Sm"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So18UIFocusEnvironmentP"
+- "10UsersTasks4UserV"
+- "10UsersTasks11UserServiceP"
+- "10UsersTasks13UserViewModelC"
+- !private "7SwiftUI4ViewP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_12.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "20184ac73722b64bd8c91ed462740c63"

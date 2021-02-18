@@ -13,6 +13,22 @@
 		0790646825D423810064FB81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790646725D423810064FB81 /* Preview Assets.xcassets */; };
 		0790647325D423820064FB81 /* UsersTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790647225D423820064FB81 /* UsersTasksTests.swift */; };
 		0790647E25D423820064FB81 /* UsersTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790647D25D423820064FB81 /* UsersTasksUITests.swift */; };
+		0790649025D423AC0064FB81 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790648F25D423AC0064FB81 /* APIError.swift */; };
+		0790649925D423ED0064FB81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790649825D423ED0064FB81 /* User.swift */; };
+		0790649E25D424970064FB81 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790649D25D424970064FB81 /* RequestBuilder.swift */; };
+		079064A325D424B50064FB81 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064A225D424B50064FB81 /* ApiService.swift */; };
+		079064A825D425130064FB81 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064A725D425130064FB81 /* ApiSession.swift */; };
+		079064B025D428860064FB81 /* UsersEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064AF25D428860064FB81 /* UsersEndpoint.swift */; };
+		079064B625D429510064FB81 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064B525D429510064FB81 /* UserService.swift */; };
+		079064BC25D42AAF0064FB81 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064BB25D42AAF0064FB81 /* UserViewModel.swift */; };
+		079064C225D42D3B0064FB81 /* GeneralEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064C125D42D3B0064FB81 /* GeneralEntity.swift */; };
+		079064C725D434C40064FB81 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079064C625D434C40064FB81 /* TasksView.swift */; };
+		0790651025D531530064FB81 /* FlowState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790650F25D531530064FB81 /* FlowState.swift */; };
+		0790651525D536170064FB81 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790651425D536170064FB81 /* TaskViewModel.swift */; };
+		0790651B25D536430064FB81 /* TasksSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790651A25D536430064FB81 /* TasksSetting.swift */; };
+		0790652C25D584580064FB81 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790652B25D584580064FB81 /* Todo.swift */; };
+		0790653225D584980064FB81 /* TaskEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790653125D584980064FB81 /* TaskEndpoint.swift */; };
+		0790653725D5882E0064FB81 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790653625D5882E0064FB81 /* TaskService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,22 @@
 		0790647925D423820064FB81 /* UsersTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0790647D25D423820064FB81 /* UsersTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTasksUITests.swift; sourceTree = "<group>"; };
 		0790647F25D423820064FB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0790648F25D423AC0064FB81 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0790649825D423ED0064FB81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0790649D25D424970064FB81 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		079064A225D424B50064FB81 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		079064A725D425130064FB81 /* ApiSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.swift; sourceTree = "<group>"; };
+		079064AF25D428860064FB81 /* UsersEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersEndpoint.swift; sourceTree = "<group>"; };
+		079064B525D429510064FB81 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		079064BB25D42AAF0064FB81 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		079064C125D42D3B0064FB81 /* GeneralEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralEntity.swift; sourceTree = "<group>"; };
+		079064C625D434C40064FB81 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		0790650F25D531530064FB81 /* FlowState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowState.swift; sourceTree = "<group>"; };
+		0790651425D536170064FB81 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		0790651A25D536430064FB81 /* TasksSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksSetting.swift; sourceTree = "<group>"; };
+		0790652B25D584580064FB81 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		0790653125D584980064FB81 /* TaskEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEndpoint.swift; sourceTree = "<group>"; };
+		0790653625D5882E0064FB81 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +127,13 @@
 		0790645F25D4237F0064FB81 /* UsersTasks */ = {
 			isa = PBXGroup;
 			children = (
+				0790651925D536340064FB81 /* Environment */,
+				0790650E25D531440064FB81 /* FlowState */,
+				079064CB25D434E00064FB81 /* TasksView */,
+				079064BA25D42A380064FB81 /* LoginView */,
+				0790649725D423E10064FB81 /* Entities */,
+				0790648E25D4239A0064FB81 /* Api */,
 				0790646025D4237F0064FB81 /* UsersTasksApp.swift */,
-				0790646225D4237F0064FB81 /* ContentView.swift */,
 				0790646425D423810064FB81 /* Assets.xcassets */,
 				0790646925D423810064FB81 /* Info.plist */,
 				0790646625D423810064FB81 /* Preview Content */,
@@ -128,6 +165,81 @@
 				0790647F25D423820064FB81 /* Info.plist */,
 			);
 			path = UsersTasksUITests;
+			sourceTree = "<group>";
+		};
+		0790648E25D4239A0064FB81 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0790653025D5848A0064FB81 /* TaskApi */,
+				079064B425D4293E0064FB81 /* UsersApi */,
+				0790648F25D423AC0064FB81 /* APIError.swift */,
+				0790649D25D424970064FB81 /* RequestBuilder.swift */,
+				079064A725D425130064FB81 /* ApiSession.swift */,
+				079064A225D424B50064FB81 /* ApiService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		0790649725D423E10064FB81 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0790649825D423ED0064FB81 /* User.swift */,
+				079064C125D42D3B0064FB81 /* GeneralEntity.swift */,
+				0790652B25D584580064FB81 /* Todo.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		079064B425D4293E0064FB81 /* UsersApi */ = {
+			isa = PBXGroup;
+			children = (
+				079064AF25D428860064FB81 /* UsersEndpoint.swift */,
+				079064B525D429510064FB81 /* UserService.swift */,
+			);
+			path = UsersApi;
+			sourceTree = "<group>";
+		};
+		079064BA25D42A380064FB81 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				0790646225D4237F0064FB81 /* ContentView.swift */,
+				079064BB25D42AAF0064FB81 /* UserViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		079064CB25D434E00064FB81 /* TasksView */ = {
+			isa = PBXGroup;
+			children = (
+				079064C625D434C40064FB81 /* TasksView.swift */,
+				0790651425D536170064FB81 /* TaskViewModel.swift */,
+			);
+			path = TasksView;
+			sourceTree = "<group>";
+		};
+		0790650E25D531440064FB81 /* FlowState */ = {
+			isa = PBXGroup;
+			children = (
+				0790650F25D531530064FB81 /* FlowState.swift */,
+			);
+			path = FlowState;
+			sourceTree = "<group>";
+		};
+		0790651925D536340064FB81 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				0790651A25D536430064FB81 /* TasksSetting.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		0790653025D5848A0064FB81 /* TaskApi */ = {
+			isa = PBXGroup;
+			children = (
+				0790653125D584980064FB81 /* TaskEndpoint.swift */,
+				0790653625D5882E0064FB81 /* TaskService.swift */,
+			);
+			path = TaskApi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +371,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079064C225D42D3B0064FB81 /* GeneralEntity.swift in Sources */,
+				0790651525D536170064FB81 /* TaskViewModel.swift in Sources */,
+				0790653725D5882E0064FB81 /* TaskService.swift in Sources */,
+				0790649E25D424970064FB81 /* RequestBuilder.swift in Sources */,
+				079064B025D428860064FB81 /* UsersEndpoint.swift in Sources */,
+				0790651B25D536430064FB81 /* TasksSetting.swift in Sources */,
+				079064B625D429510064FB81 /* UserService.swift in Sources */,
+				079064BC25D42AAF0064FB81 /* UserViewModel.swift in Sources */,
+				079064A325D424B50064FB81 /* ApiService.swift in Sources */,
+				0790652C25D584580064FB81 /* Todo.swift in Sources */,
+				0790649925D423ED0064FB81 /* User.swift in Sources */,
+				079064C725D434C40064FB81 /* TasksView.swift in Sources */,
+				0790653225D584980064FB81 /* TaskEndpoint.swift in Sources */,
+				079064A825D425130064FB81 /* ApiSession.swift in Sources */,
+				0790651025D531530064FB81 /* FlowState.swift in Sources */,
 				0790646325D4237F0064FB81 /* ContentView.swift in Sources */,
 				0790646125D4237F0064FB81 /* UsersTasksApp.swift in Sources */,
+				0790649025D423AC0064FB81 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

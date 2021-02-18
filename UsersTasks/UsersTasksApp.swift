@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct UsersTasksApp: App {
+    var settings = UserViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(settings)
         }
     }
 }

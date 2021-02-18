@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "58bc7d610115fe2d285d782c3ccb4b14"
+build_time: [1613666324, 959699000]
+inputs:
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Entities/GeneralEntity.swift": [1612969627, 23553786]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/TasksView/TaskViewModel.swift": [1613058484, 779922755]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/TaskApi/TaskService.swift": [1613058941, 969660229]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/RequestBuilder.swift": [1612967260, 140917952]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/UsersApi/UsersEndpoint.swift": [1613059391, 976222559]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Environment/TasksSetting.swift": [1613059170, 689845500]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/UsersApi/UserService.swift": [1612970100, 490301359]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/LoginView/UserViewModel.swift": [1613040792, 693885429]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/ApiService.swift": [1612969368, 617682816]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Entities/Todo.swift": [1613059825, 597920500]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Entities/User.swift": !dirty [1612971234, 302293567]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/TasksView/TasksView.swift": !dirty [1613058993, 984645912]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/TaskApi/TaskEndpoint.swift": [1613059645, 645884114]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/ApiSession.swift": [1612969368, 604473432]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/FlowState/FlowState.swift": [1613041240, 175800143]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/LoginView/ContentView.swift": !dirty [1613040893, 682411002]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/UsersTasksApp.swift": !dirty [1613040104, 621441602]
+  "/Users/aual/Desktop/UsersDataSwiftUI/UsersTasks/UsersTasks/Api/APIError.swift": [1612966982, 668757196]

@@ -1,0 +1,288 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserViewModel"
+provides-nominal:
+- "10UsersTasks13UserViewModelC"
+provides-member:
+- ["10UsersTasks13UserViewModelC", ""]
+provides-dynamic-lookup:
+- "$currentUser"
+- "$users"
+- "_currentUser"
+- "_users"
+- "apiSession"
+- "cancellables"
+- "currentUser"
+- "getUsers"
+- "login"
+- "users"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- "APISession"
+- "AnyCancellable"
+- "ApiService"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "ObservableObject"
+- "Published"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "User"
+- "UserService"
+- "UserViewModel"
+- !private "print"
+depends-member:
+- !private ["10UsersTasks10APISessionV", "deinit"]
+- !private ["10UsersTasks10APISessionV", "init"]
+- !private ["7Combine12AnyPublisherV", "sink"]
+- !private ["10UsersTasks10ApiServiceP", "init"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["7Combine11SubscribersO10CompletionO", "failure"]
+- !private ["7Combine11SubscribersO10CompletionO", "finished"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sink"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "sink"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "failure"]
+- !private ["Se", "finished"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "name"]
+- !private ["Se", "username"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "failure"]
+- !private ["SE", "finished"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "name"]
+- !private ["SE", "username"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "finished"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "failure"]
+- !private ["SH", "finished"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "username"]
+- !private ["SM", "first"]
+- ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["7Combine16ObservableObjectP", "APISession"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", "Set"]
+- ["7Combine16ObservableObjectP", "User"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_currentUser"]
+- !private ["7Combine16ObservableObjectP", "_users"]
+- ["7Combine16ObservableObjectP", "apiSession"]
+- !private ["7Combine16ObservableObjectP", "cancellables"]
+- !private ["7Combine16ObservableObjectP", "currentUser"]
+- ["7Combine16ObservableObjectP", "getUsers"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "users"]
+- !private ["Sq", "callAsFunction"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["7Combine9PublisherP", "sink"]
+- !private ["Sk", "first"]
+- ["Sk", "init"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10UsersTasks4UserV", "name"]
+- !private ["10UsersTasks4UserV", "username"]
+- !private ["10UsersTasks11UserServiceP", "APISession"]
+- ["10UsersTasks11UserServiceP", "ObjectWillChangePublisher"]
+- ["10UsersTasks11UserServiceP", "Published"]
+- ["10UsersTasks11UserServiceP", "Set"]
+- ["10UsersTasks11UserServiceP", "User"]
+- ["10UsersTasks11UserServiceP", ""]
+- ["10UsersTasks11UserServiceP", "_Default_ObjectWillChangePublisher"]
+- !private ["10UsersTasks11UserServiceP", "_currentUser"]
+- !private ["10UsersTasks11UserServiceP", "_users"]
+- ["10UsersTasks11UserServiceP", "apiSession"]
+- !private ["10UsersTasks11UserServiceP", "cancellables"]
+- !private ["10UsersTasks11UserServiceP", "currentUser"]
+- ["10UsersTasks11UserServiceP", "getUsers"]
+- ["10UsersTasks11UserServiceP", "objectWillChange"]
+- !private ["10UsersTasks11UserServiceP", "print"]
+- !private ["10UsersTasks11UserServiceP", "users"]
+- ["10UsersTasks13UserViewModelC", "$currentUser"]
+- ["10UsersTasks13UserViewModelC", "$users"]
+- ["10UsersTasks13UserViewModelC", "APISession"]
+- ["10UsersTasks13UserViewModelC", "AnyCancellable"]
+- ["10UsersTasks13UserViewModelC", "ApiService"]
+- ["10UsersTasks13UserViewModelC", "Bool"]
+- ["10UsersTasks13UserViewModelC", "ObjectWillChangePublisher"]
+- ["10UsersTasks13UserViewModelC", "Published"]
+- ["10UsersTasks13UserViewModelC", "Set"]
+- ["10UsersTasks13UserViewModelC", "String"]
+- ["10UsersTasks13UserViewModelC", "User"]
+- ["10UsersTasks13UserViewModelC", "_Default_ObjectWillChangePublisher"]
+- !private ["10UsersTasks13UserViewModelC", "_currentUser"]
+- !private ["10UsersTasks13UserViewModelC", "_users"]
+- ["10UsersTasks13UserViewModelC", "apiSession"]
+- ["10UsersTasks13UserViewModelC", "cancellables"]
+- ["10UsersTasks13UserViewModelC", "currentUser"]
+- ["10UsersTasks13UserViewModelC", "deinit"]
+- ["10UsersTasks13UserViewModelC", "getUsers"]
+- ["10UsersTasks13UserViewModelC", "init"]
+- ["10UsersTasks13UserViewModelC", "login"]
+- ["10UsersTasks13UserViewModelC", "objectWillChange"]
+- !private ["10UsersTasks13UserViewModelC", "print"]
+- ["10UsersTasks13UserViewModelC", "users"]
+- !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+depends-nominal:
+- !private "10UsersTasks10APISessionV"
+- !private "7Combine12AnyPublisherV"
+- !private "10UsersTasks10ApiServiceP"
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "7Combine11SubscribersO10CompletionO"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s12IdentifiableP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "7Combine16ObservableObjectP"
+- !private "Sq"
+- "7Combine9PublishedV"
+- !private "7Combine9PublisherP"
+- "Sk"
+- "Sm"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10UsersTasks4UserV"
+- "10UsersTasks11UserServiceP"
+- "10UsersTasks13UserViewModelC"
+- !private "7SwiftUI4ViewP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode 11.7.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "20184ac73722b64bd8c91ed462740c63"
